@@ -77,7 +77,6 @@ public class BungeeProxy extends Plugin {
 			});
 		} catch (Exception e) {
 			getLogger().log(Level.SEVERE, e.getMessage(), e);
-			getProxy().stop();
 		}
 	}
 }
